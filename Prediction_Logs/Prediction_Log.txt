@@ -1,0 +1,58 @@
+2022-03-18/18:57:51		Start of Validation on files for prediction!!
+2022-03-18/18:57:55		Raw Data Validation Complete!!
+2022-03-18/18:57:55		Starting Data Transforamtion!!
+2022-03-18/18:57:58		DataTransformation Completed!!!
+2022-03-18/18:57:58		Creating Prediction_Database and tables on the basis of given schema!!!
+2022-03-18/18:58:02		Table creation Completed!!
+2022-03-18/18:58:02		Insertion of Data into Table started!!!!
+2022-03-18/18:58:07		Insertion in Table completed!!!
+2022-03-18/18:58:07		Deleting Good Data Folder!!!
+2022-03-18/18:58:07		Good_Data folder deleted!!!
+2022-03-18/18:58:07		Moving bad files to Archive and deleting Bad_Data folder!!!
+2022-03-18/18:58:07		Bad files moved to archive!! Bad folder Deleted!!
+2022-03-18/18:58:07		Validation Operation completed!!
+2022-03-18/18:58:07		Extracting csv file from table
+2022-03-18/18:58:08		Start of Prediction
+2022-03-18/18:58:08		Entered the get_data method of the Data_Getter class
+2022-03-18/18:58:08		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-03-18/18:58:08		Entered the is_null_present method of the Preprocessor class
+2022-03-18/18:58:08		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-03-18/18:58:08		Entered the impute_missing_values method of the Preprocessor class
+2022-03-18/18:58:10		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-03-18/18:58:10		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-03-18/18:58:13		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-03-18/18:58:13		Entered the remove_columns method of the Preprocessor class
+2022-03-18/18:58:13		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-03-18/18:58:13		Entered the load_model method of the File_Operation class
+2022-03-18/18:58:13		Exception occured in load_model method of the Model_Finder class. Exception message:  [Errno 2] No such file or directory: 'models/KMeans/KMeans.sav'
+2022-03-18/18:58:13		Model File KMeans could not be saved. Exited the load_model method of the Model_Finder class
+2022-03-18/18:58:13		Error occured while running the prediction!! Error:: 
+2022-03-21/10:31:01		Start of Validation on files for prediction!!
+2022-03-21/10:31:04		Raw Data Validation Complete!!
+2022-03-21/10:31:04		Starting Data Transforamtion!!
+2022-03-21/10:31:07		DataTransformation Completed!!!
+2022-03-21/10:31:07		Creating Prediction_Database and tables on the basis of given schema!!!
+2022-03-21/10:31:11		Table creation Completed!!
+2022-03-21/10:31:11		Insertion of Data into Table started!!!!
+2022-03-21/10:31:17		Insertion in Table completed!!!
+2022-03-21/10:31:17		Deleting Good Data Folder!!!
+2022-03-21/10:31:17		Good_Data folder deleted!!!
+2022-03-21/10:31:17		Moving bad files to Archive and deleting Bad_Data folder!!!
+2022-03-21/10:31:17		Bad files moved to archive!! Bad folder Deleted!!
+2022-03-21/10:31:17		Validation Operation completed!!
+2022-03-21/10:31:17		Extracting csv file from table
+2022-03-21/10:31:18		Start of Prediction
+2022-03-21/10:31:18		Entered the get_data method of the Data_Getter class
+2022-03-21/10:31:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-03-21/10:31:18		Entered the is_null_present method of the Preprocessor class
+2022-03-21/10:31:18		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-03-21/10:31:18		Entered the impute_missing_values method of the Preprocessor class
+2022-03-21/10:31:20		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-03-21/10:31:20		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-03-21/10:31:23		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-03-21/10:31:23		Entered the remove_columns method of the Preprocessor class
+2022-03-21/10:31:23		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-03-21/10:31:23		Entered the load_model method of the File_Operation class
+2022-03-21/10:31:23		Exception occured in load_model method of the Model_Finder class. Exception message:  [Errno 2] No such file or directory: 'models/KMeans/KMeans.sav'
+2022-03-21/10:31:23		Model File KMeans could not be saved. Exited the load_model method of the Model_Finder class
+2022-03-21/10:31:23		Error occured while running the prediction!! Error:: 
